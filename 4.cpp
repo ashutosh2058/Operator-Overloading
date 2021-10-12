@@ -18,7 +18,7 @@ public:
         int n;
         cin >> n;
         feet = n / 12;
-        inches = fmod(n, 12);
+        inches = fmod(n, 13);
         cout << endl;
     }
     void putdata()
